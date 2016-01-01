@@ -7,7 +7,7 @@ Gin-N-Tonic 2016
 Douglas Adams, *The Restaurant at the End of the Universe*
 
 ## Results
-- [mds maps](./mds-maps.md)
+- [mds maps](https://github.com/andkov/gin-n-tonic-2016/blob/master/analysis/basic-mds/figure-png/mds-maps.md)
 
 ## Gin resources
 - [How to taste gin](http://ginmonger.com/ginmonger_012.htm) by GinMonger
