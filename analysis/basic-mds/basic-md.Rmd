@@ -67,10 +67,89 @@ read_chunk("./analysis/basic-mds/basic-mds.R") #This allows knitr to call chunks
 ```{r andrey, echo=echoChunks, message=TRUE, fig.width=7, fig.height=7}
 input <- c(1,
            2, 1,
-           1, 3, 1,
-           2, 5, 4, 1,
-           4, 5, 5, 2, 1)
-mds_scatter(input, 3)
+           3, 2, 1,
+           3, 1, 2, 1,
+           3, 4, 4, 5, 1)
+g <- mds_scatter(input, 3.5)
+g + ggtitle("Andrey")
+```
+
+
+
+
+```{r jessica, echo=echoChunks, message=TRUE, fig.width=7, fig.height=7}
+input <- c(1,
+           2, 1,
+           3, 1, 1,
+           1, 2, 3, 1,
+           5, 4, 5, 1, 1)
+g <- mds_scatter(input, 3.5)
+g + ggtitle("Jessica")
+```
+
+
+```{r brandon, echo=echoChunks, message=TRUE, fig.width=7, fig.height=7}
+input <- c(1,
+           3, 1,
+           4, 2, 1,
+           3, 2, 1, 1,
+           4, 5, 3, 4, 1)
+g <- mds_scatter(input, 3.5)
+g + ggtitle("Brandon")
+```
+
+
+```{r amanda, echo=echoChunks, message=TRUE, fig.width=7, fig.height=7}
+input <- c(1,
+           4, 1,
+           4, 2, 1,
+           3, 3, 1, 1,
+           5, 5, 5, 4, 1)
+g <- mds_scatter(input, 3.5)
+g + ggtitle("Amanda")
+```
+
+
+```{r kate, echo=echoChunks, message=TRUE, fig.width=7, fig.height=7}
+input <- c(1,
+           1, 1,
+           2, 2, 1,
+           3, 4, 1, 1,
+           5, 5, 5, 5, 1)
+g <- mds_scatter(input, 3.5)
+g + ggtitle("Kate")
+```
+
+
+```{r jason, echo=echoChunks, message=TRUE, fig.width=7, fig.height=7}
+input <- c(1,
+           1, 1,
+           3, 3, 1,
+           2, 3, 3, 1,
+           5, 5, 3, 4, 1)
+g <- mds_scatter(input, 3.5)
+g + ggtitle("Jason")
+```
+
+
+```{r sasha, echo=echoChunks, message=TRUE, fig.width=7, fig.height=7}
+input <- c(1,
+           2, 1,
+           1, 2, 1,
+           3, 2, 1, 1,
+           5, 4, 5, 5, 1)
+g <- mds_scatter(input, 3.5)
+g + ggtitle("Sasha")
+```
+
+```{r ken, echo=echoChunks, message=TRUE, fig.width=7, fig.height=7}
+input <- c(1,
+           3, 1,
+           3, 3, 1,
+           1, 2, 3, 1,
+           5, 4, 5, 5, 1)
+g <- mds_scatter(input, 3.5)
+g + ggtitle("Ken")
 ```
 
 # Session Information

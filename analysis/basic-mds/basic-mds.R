@@ -127,7 +127,7 @@ mds_scatter <- function(input, limit){
   
   g <- ggplot2::ggplot(d, aes(x=V1, y=V2)) +
     geom_point(shape=21, fill="red", size=4) +
-    geom_text(aes(label=tonics), vjust=-1.5) +
+    geom_text(aes(label=tonics), vjust=-1.5, size=8) +
     scale_y_continuous(limits=c(-limit,limit))+
     scale_x_continuous(limits=c(-limit,limit))+
     main_theme

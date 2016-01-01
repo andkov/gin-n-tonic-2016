@@ -32,12 +32,61 @@ Happy New Year of 2016!
 
 ![](figure-png/andrey-1.png) 
 
+
+
+
+![](figure-png/jessica-1.png) 
+
+
+![](figure-png/brandon-1.png) 
+
+
+![](figure-png/amanda-1.png) 
+
+
+
+```
+Warning: Removed 1 rows containing missing values (geom_point).
+```
+
+```
+Warning: Removed 1 rows containing missing values (geom_text).
+```
+
+![](figure-png/kate-1.png) 
+
+
+![](figure-png/jason-1.png) 
+
+
+
+```
+Warning: Removed 1 rows containing missing values (geom_point).
+```
+
+```
+Warning: Removed 1 rows containing missing values (geom_text).
+```
+
+![](figure-png/sasha-1.png) 
+
+
+```
+Warning: Removed 1 rows containing missing values (geom_point).
+```
+
+```
+Warning: Removed 1 rows containing missing values (geom_text).
+```
+
+![](figure-png/ken-1.png) 
+
 # Session Information
 For the sake of documentation and reproducibility, the current report was rendered on a system using the following software.
 
 
 ```
-Report rendered by koval_000 at 2015-12-31, 17:13 -0800
+Report rendered by koval_000 at 2015-12-31, 21:48 -0800
 ```
 
 ```
